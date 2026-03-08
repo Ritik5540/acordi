@@ -10,8 +10,8 @@
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6">
                         <div class="carousel-text">
-                            <h1 class="display-1 text-uppercase mb-3">Welcome to Our Company</h1>
-                            <p class="fs-5 mb-5">Non Government Organisation Agricultural Consultancy & Rural Development Institute(A.C.R.D.I)</p>
+                           <h2 class="display-1 text-uppercase mb-3" style="font-size:19px;">Welcome to Our Organisation/Society(ESTD -1987-88)</h2>
+                            <p  class="fs-5 mb-5">Non Government Organisation Agricultural Consultancy & Rural Development Institute(ACORDI)</p>
                             <div class="d-flex">
                                 <a class="btn btn-primary py-3 px-4 me-3" href="donation.php">Donate Now</a>
                                 <a class="btn btn-secondary py-3 px-4" href="contact.php">Join Us Now</a>
@@ -29,8 +29,8 @@
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6">
                         <div class="carousel-text">
-                            <h1 class="display-1 text-uppercase mb-3">Welcome to Our Company</h1>
-                            <p  class="fs-5 mb-5">Non Government Organisation Agricultural Consultancy & Rural Development Institute(A.C.R.D.I)</p>
+                            <h2 class="display-1 text-uppercase mb-3" style="font-size:19px;">Welcome to Our Organisation/Society(ESTD -1987-88)</h2>
+                            <p  class="fs-5 mb-5">Non Government Organisation Agricultural Consultancy & Rural Development Institute(ACORDI)</p>
                             <div class="d-flex mt-4">
                                 <a class="btn btn-primary py-3 px-4 me-3" href="donation.php">Donate Now</a>
                                 <a class="btn btn-secondary py-3 px-4" href="contact.php">Join Us Now</a>
@@ -48,8 +48,8 @@
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6">
                         <div class="carousel-text">
-                            <h1 class="display-1 text-uppercase mb-3">Welcome to Our Company</h1>
-                            <p class="fs-5 mb-5">Non Government Organisation Agricultural Consultancy & Rural Development Institute(A.C.R.D.I)</p>
+                            <h2 class="display-1 text-uppercase mb-3" style="font-size:19px;">Welcome to Our Organisation / Society(ESTD -1987-88)</h2>
+                            <p  class="fs-5 mb-5">Non Government Organisation Agricultural Consultancy & Rural Development Institute(ACORDI)</p>
                             <div class="d-flex mt-4">
                                 <a class="btn btn-primary py-3 px-4 me-3" href="donation.php">Donate Now</a>
                                 <a class="btn btn-secondary py-3 px-4" href="contact.php">Join Us Now</a>
@@ -67,8 +67,8 @@
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6">
                         <div class="carousel-text">
-                            <h1 class="display-1 text-uppercase mb-3">Welcome to Our Company</h1>
-                            <p class="fs-5 mb-5">Non Government Organisation Agricultural Consultancy & Rural Development Institute(A.C.R.D.I)</p>
+                           <h2 class="display-1 text-uppercase mb-3" style="font-size:19px;">Welcome to Our Organisation / Society(ESTD -1987-88)</h2>
+                            <p  class="fs-5 mb-5">Non Government Organisation Agricultural Consultancy & Rural Development Institute(ACORDI)</p>
                             <div class="d-flex mt-4">
                                 <a class="btn btn-primary py-3 px-4 me-3" href="donation.php">Donate Now</a>
                                 <a class="btn btn-secondary py-3 px-4" href="contact.php">Join Us Now</a>
@@ -97,7 +97,7 @@
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.2s">
                     <div class="about-img">
-                        <img class="img-fluid w-100" src="image/main/about.jpg" alt="Image" style="height:90vh;">
+                        <img class="img-fluid w-100" src="image/main/about.jpg" alt="Image" style="height:70vh;">
                     </div>
                     
                 </div>
