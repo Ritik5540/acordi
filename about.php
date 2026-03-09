@@ -1,4 +1,18 @@
 <?php include "header.php"; ?>
+<style>
+.about-img img{
+    height:70vh;
+    object-fit:cover;
+}
+
+/* Mobile + Tablet */
+@media (max-width:567px){
+    .about-img img{
+        height: 40vh !important;
+    }
+}
+</style>
+
  <!-- Page Header Start -->
 <div class="container-fluid position-relative text-white d-flex align-items-center justify-content-center"
      style="background: url('image/banner/banner2.jpg') center center / cover no-repeat; height:400px;">
@@ -21,12 +35,11 @@
     <div class="container-fluid py-5">
         <div class="container">
             <div class="row g-5 align-items-center">
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.2s">
-                    <div class="about-img">
-                        <img class="img-fluid w-100" src="image/main/about.jpg" alt="Image" style="height:70vh;">
-                    </div>
-                    
-                </div>
+    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.2s">
+    <div class="about-img">
+        <img class="img-fluid w-100" src="image/main/about.jpg" alt="Image">
+    </div>
+</div>
                 
                 <div class="col-lg-6">
                     <p class="section-title bg-white text-start text-primary pe-3">About Us</p>
