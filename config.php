@@ -7,9 +7,9 @@ if ($_SERVER['HTTP_HOST'] == 'localhost') {
     $db   = 'acordi'; // your database name
 } else {
     $host = "localhost";
-    $user = "u409719797_adidev";
-    $pass = "A/4mUBBv";
-    $db   = "u409719797_adidev"; // your database name
+    $user = "u409719797_acordi";
+    $pass = "X5807?xfpg+";
+    $db   = "u409719797_acordi"; // your database name
 }
 
 $conn = new mysqli($host, $user, $pass, $db);
