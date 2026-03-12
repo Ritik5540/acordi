@@ -1,3 +1,4 @@
+<?php include 'config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
@@ -111,7 +112,8 @@
                             </div>
                         </div>
                          <a href="certification.php" class="nav-item nav-link">Certificates</a>
-                        <a href="gallery.php" class="nav-item nav-link">Gallery</a>
+                        <a href="gallery.php" class="nav-item nav-link">Program Gallery</a>
+                        <a href="gallery-news.php" class="nav-item nav-link">News Gallery</a>
                          <a href="donation.php" class="nav-item nav-link">Donation</a>
                         <a href="contact.php" class="nav-item nav-link">Contact</a>
                     </div>
