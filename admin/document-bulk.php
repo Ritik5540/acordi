@@ -91,7 +91,7 @@ $max_files = 5;
                                 <select name="bulk_document_type" class="form-control">
                                     <option value="general">General</option>
                                     <option value="workorder">Work Order</option>
-                                    <option value="premium">Premium Document</option>
+                                    <option value="legal">Legal Document</option>
                                     <option value="other">Other</option>
                                 </select>
                             </div>

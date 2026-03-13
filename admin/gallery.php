@@ -482,6 +482,7 @@ if (isset($_SESSION['success_message'])) {
                                     <option value="event" <?php echo ($_POST['gallery_type'] ?? '') == 'event' ? 'selected' : ''; ?>>Event</option>
                                     <option value="program" <?php echo ($_POST['gallery_type'] ?? '') == 'program' ? 'selected' : ''; ?>>Program</option>
                                     <option value="news" <?php echo ($_POST['gallery_type'] ?? '') == 'news' ? 'selected' : ''; ?>>News</option>
+                                    <option value="video" <?php echo ($_POST['gallery_type'] ?? '') == 'video' ? 'selected' : ''; ?>>Video</option>
                                     <option value="campaign" <?php echo ($_POST['gallery_type'] ?? '') == 'campaign' ? 'selected' : ''; ?>>Campaign</option>
                                     <option value="achievement" <?php echo ($_POST['gallery_type'] ?? '') == 'achievement' ? 'selected' : ''; ?>>Achievement</option>
                                     <option value="other" <?php echo ($_POST['gallery_type'] ?? '') == 'other' ? 'selected' : ''; ?>>Other</option>
@@ -575,6 +576,7 @@ if (isset($_SESSION['success_message'])) {
                                     <option value="event" <?php echo ($gallery_data['gallery_type'] ?? '') == 'event' ? 'selected' : ''; ?>>Event</option>
                                     <option value="program" <?php echo ($gallery_data['gallery_type'] ?? '') == 'program' ? 'selected' : ''; ?>>Program</option>
                                     <option value="news" <?php echo ($gallery_data['gallery_type'] ?? '') == 'news' ? 'selected' : ''; ?>>News</option>
+                                    <option value="video" <?php echo ($gallery_data['gallery_type'] ?? '') == 'video' ? 'selected' : ''; ?>>Video</option>
                                     <option value="campaign" <?php echo ($gallery_data['gallery_type'] ?? '') == 'campaign' ? 'selected' : ''; ?>>Campaign</option>
                                     <option value="achievement" <?php echo ($gallery_data['gallery_type'] ?? '') == 'achievement' ? 'selected' : ''; ?>>Achievement</option>
                                     <option value="other" <?php echo ($gallery_data['gallery_type'] ?? '') == 'other' ? 'selected' : ''; ?>>Other</option>
@@ -698,6 +700,7 @@ if (isset($_SESSION['success_message'])) {
                                     <option value="event">Event</option>
                                     <option value="program">Program</option>
                                     <option value="news">News</option>
+                                    <option value="video">Video</option>
                                     <option value="campaign">Campaign</option>
                                     <option value="achievement">Achievement</option>
                                     <option value="other">Other</option>

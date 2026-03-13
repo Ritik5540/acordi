@@ -18,63 +18,41 @@
 <!-- Page Header End -->
 
 <section class="py-5 bg-light">
-<div class="container">
+    <div class="container">
 
-<h2 class="text-center mb-5 fw-bold">Videos Gallery</h2>
+        <h2 class="text-center mb-5 fw-bold">Videos Gallery</h2>
 
-<div class="row g-4">
-
-<!-- Video 1 -->
-<div class="col-lg-6 col-md-6 col-12">
-<div class="card border-0 shadow h-100">
-<div class="ratio ratio-16x9">
-<iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen></iframe>
-</div>
-<div class="card-body text-center">
-<h6 class="fw-bold text-success">Education Program</h6>
-</div>
-</div>
-</div>
-
-<!-- Video 2 -->
-<div class="col-lg-6 col-md-6 col-12">
-<div class="card border-0 shadow h-100">
-<div class="ratio ratio-16x9">
-<iframe src="https://www.youtube.com/embed/jNQXAC9IVRw" allowfullscreen></iframe>
-</div>
-<div class="card-body text-center">
-<h6 class="fw-bold text-success">Children Activities</h6>
-</div>
-</div>
-</div>
-
-<!-- Video 3 -->
-<div class="col-lg-6 col-md-6 col-12">
-<div class="card border-0 shadow h-100">
-<div class="ratio ratio-16x9">
-<iframe src="https://www.youtube.com/embed/jNQXAC9IVRw" allowfullscreen></iframe>
-</div>
-<div class="card-body text-center">
-<h6 class="fw-bold text-success">Community Work</h6>
-</div>
-</div>
-</div>
-
-<!-- Video 4 -->
-<div class="col-lg-6 col-md-6 col-12">
-<div class="card border-0 shadow h-100">
-<div class="ratio ratio-16x9">
-<iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen></iframe>
-</div>
-<div class="card-body text-center">
-<h6 class="fw-bold text-success">Health Awareness</h6>
-</div>
-</div>
-</div>
-
-</div>
-
-</div>
+        <div class="row g-4">
+            <?php
+            $sql = "SELECT * FROM galleries WHERE gallery_type = 'video' ORDER BY created_at DESC";
+            $result = $conn->query($sql);
+            while ($row = $result->fetch_assoc()):
+            ?>
+                <!-- Video 1 -->
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="card border-0 shadow h-100">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="/admin/uploads/gallery/<?php echo $row['image_path']; ?>" allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body text-center">
+                            <h6 class="fw-bold text-success"><?php echo $row['title']; ?></h6>
+                        </div>
+                    </div>
+                </div>
+            <?php endwhile; ?>
+            <!-- Comming Soon if $video not found -->
+            <?php if ($result->num_rows == 0): ?>
+                <div class="col-12">
+                    <div class="card border-0 h-100">
+                        <div class="card-body text-center">
+                            <h3 class="fw-bold text-secondary">No Videos Found</h3>
+                            <p class="text-muted">Please check back later for updates.</p>
+                        </div>
+                    </div>
+                </div>
+            <?php endif; ?>
+        </div>
+    </div>
 </section>
 
 <?php include "footer.php"; ?>

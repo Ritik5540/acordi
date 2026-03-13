@@ -68,7 +68,7 @@ if ($result && $row = $result->fetch_assoc()) {
                             <label class="form-label">Document Type</label>
                             <select name="document_type" class="form-control">
                                 <?php
-                                $types = ['general', 'workorder', 'premium', 'other'];
+                                $types = ['general', 'workorder', 'legal', 'other'];
                                 foreach ($types as $type) {
                                     $selected = ($document['document_type'] == $type) ? 'selected' : '';
                                     echo "<option value=\"$type\" $selected>" . ucfirst($type) . "</option>";

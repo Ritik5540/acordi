@@ -40,7 +40,7 @@
                             </thead>
                             <?php
 
-                            $sql = "SELECT * FROM documents ORDER BY title ASC";
+                            $sql = "SELECT * FROM documents WHERE document_type = 'legal' ORDER BY title ASC";
                             $result = $conn->query($sql);
 
                             ?>
@@ -64,7 +64,7 @@
 
                                                 <div class="d-grid gap-2 d-md-flex justify-content-md-center">
 
-                                                    <a href="admin/uploads/documents/<?= urlencode($row['file_path']) ?>"
+                                                    <a href="uploads/documents/<?= urlencode($row['file_path']) ?>"
                                                         target="_blank"
                                                         class="btn btn-sm btn-primary">
                                                         View
