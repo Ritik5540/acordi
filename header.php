@@ -41,14 +41,14 @@
         
         <!-- Logo -->
         <div class="col-12 col-lg-4 text-center text-lg-start">
-          <a href="index.php" class="navbar-brand d-inline-flex align-items-center ms-2 mt-1 mb-5">
-    <img src="image/logo.jpg" alt="Charitize Logo" class="img-fluid" style="max-height:50px; margin-bottom: 50px;">
+          <a href="index.php" class="navbar-brand d-inline-flex align-items-center ms-2 mt-1">
+    <img src="image/logo.jpg" alt="Charitize Logo" class="img-fluid" style="max-height:100px; width:150px;">
 </a>
 
         </div>
 
         <!-- Contact Info (Desktop Only) -->
-        <div class="col-12 col-lg-8 d-none d-lg-block">
+        <div class="col-12 col-lg-8 d-none d-lg-block mt-5">
             <div class="row g-3">
 
                 <div class="col-lg-6">
@@ -68,9 +68,9 @@
                         <div class="flex-shrink-0 btn-square bg-primary">
                             <i class="fa fa-map-marker-alt text-dark"></i>
                         </div>
-                        <div class="ms-2 text-wrap mb-4" >
+                        <div class="ms-2 text-wrap" >
                             <h6 class="text-primary mb-0">Address</h6>
-                            <span class="text-white small d-block mb-5">
+                            <span class="text-white small d-block">
                                 H1-279, Near Kartik Oraon Chowk, Harmu Bypass Road, Harmu Colony, Ranchi-12, Jharkhand
                             </span>
                         </div>
@@ -111,9 +111,22 @@
                                 <a href="general_secretary.php" class="dropdown-item">Message from the General Secretary</a>
                             </div>
                         </div>
-                         <a href="certification.php" class="nav-item nav-link">Certificates</a>
-                        <a href="gallery.php" class="nav-item nav-link">Program Gallery</a>
-                        <a href="gallery-news.php" class="nav-item nav-link">News Gallery</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Certificates</a>
+                            <div class="dropdown-menu bg-light m-0">
+                                <a href="certification.php" class="dropdown-item">Legal Documents of Organisation</a>
+                                <a href="agencies_certification.php" class="dropdown-item">Work Orders from Different Government Agencies</a>
+                                
+                            </div>
+                        </div>
+                         <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Media</a>
+                            <div class="dropdown-menu bg-light m-0">
+                                <a href="gallery.php" class="dropdown-item">Program Gallery</a>
+                                <a href="gallery-news.php" class="dropdown-item">News Gallery</a>
+                                <a href="Videos.php" class="dropdown-item">Videos Gallery</a>
+                            </div>
+                        </div>
                          <a href="donation.php" class="nav-item nav-link">Donation</a>
                         <a href="contact.php" class="nav-item nav-link">Contact</a>
                     </div>

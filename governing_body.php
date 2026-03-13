@@ -94,7 +94,7 @@
 <h5 class="card-title text-primary fw-bold">MAMTA CHOUDHARY</h5>
 <span class="badge bg-secondary mb-2">Executive Member</span>
 
-<p class="mb-1"><strong>Relation:</strong> W/O Sanjay Kumar</p>
+<p class="mb-1"><strong>Relation:</strong> W/O Sanjay Kumar Choudhary</p>
 <p class="mb-1"><strong>Mobile:</strong> 9835125324</p>
 <p class="mb-1"><strong>Address:</strong> Ratu Road, Ranchi</p>
 <p class="mb-1"><strong>Aadhar:</strong> 620384653691</p>
@@ -115,6 +115,23 @@
 <p class="mb-1"><strong>Address:</strong> Harmu Colony, Ranchi</p>
 <p class="mb-1"><strong>Aadhar:</strong> 356166009459</p>
 <p class="mb-0"><strong>PAN:</strong> AYCPJ9747R</p>
+</div>
+</div>
+</div>
+<!-- Member 7 -->
+<div class="col-lg-4 col-md-6">
+<div class="card h-100 shadow border-0">
+<div class="card-body">
+<h5 class="card-title text-primary fw-bold">Himanshu Kumar Upadhyay</h5>
+<span class="badge bg-secondary mb-2">Executive Member</span>
+
+<p class="mb-1"><strong>Relation:</strong>S/o D. N. Upadhyay
+(Hindu)<br>(M.A, Eng. Hons.)(Tutor)</p>
+<p class="mb-1"><strong>Address:</strong> Gram Ram Bhishnu Singh,
+Indrapuri<br> Road No.-1,
+Ratu Road, Ranchi</p>
+<p class="mb-1"><strong>Aadhar:</strong> 220101046219</p>
+<p class="mb-0"><strong>PAN:</strong> AEPPU0620H</p>
 </div>
 </div>
 </div>

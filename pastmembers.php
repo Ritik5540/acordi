@@ -19,7 +19,7 @@
 <section class="py-5 bg-light">
 <div class="container">
 
-<h3 class="text-center fw-bold text-success mb-5">Advisory Committee Members</h3>
+<h3 class="text-center fw-bold text-success mb-5">Former Members of the Advisory Committee</h3>
 
 <div class="row g-4">
 

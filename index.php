@@ -1,9 +1,5 @@
 <?php include "header.php"; ?>
 
-<head>
-
-</head>
-
 <!-- Carousel Start -->
 <div class="container-fluid p-0 wow fadeIn" data-wow-delay="0.1s">
     <div class="owl-carousel header-carousel py-0">
@@ -21,7 +17,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="carousel-img">
-                        <img class="w-100" src="image/banner/banner2.jpg" alt="Image">
+                        <img class="w-100" src="image/banner/banner1.jpg" alt="Image">
                     </div>
                 </div>
             </div>
@@ -40,16 +36,16 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="carousel-img">
-                        <img class="w-100" src="image/banner/banner1.jpg" alt="Image">
+                        <img class="w-100" src="image/banner/banner2.jpg" alt="Image">
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container py-5">
+          <div class="container py-5">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6">
                     <div class="carousel-text">
-                        <h2 class="display-1 text-uppercase mb-3" style="font-size:19px;">Welcome to Our Organisation / Society(ESTD -1987-88)</h2>
+                        <h2 class="display-1 text-uppercase mb-3" style="font-size:19px;">Welcome to Our Organisation/Society(ESTD -1987-88)</h2>
                         <p class="fs-5 mb-5">Non Government Organisation Agricultural Consultancy & Rural Development Institute(ACORDI)</p>
                         <div class="d-flex mt-4">
                             <a class="btn btn-primary py-3 px-4 me-3" href="donation.php">Donate Now</a>
@@ -64,25 +60,8 @@
                 </div>
             </div>
         </div>
-        <div class="container py-5">
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-6">
-                    <div class="carousel-text">
-                        <h2 class="display-1 text-uppercase mb-3" style="font-size:19px;">Welcome to Our Organisation / Society(ESTD -1987-88)</h2>
-                        <p class="fs-5 mb-5">Non Government Organisation Agricultural Consultancy & Rural Development Institute(ACORDI)</p>
-                        <div class="d-flex mt-4">
-                            <a class="btn btn-primary py-3 px-4 me-3" href="donation.php">Donate Now</a>
-                            <a class="btn btn-secondary py-3 px-4" href="contact.php">Join Us Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="carousel-img">
-                        <img class="w-100" src="image/banner/banner4.jpg" alt="Image">
-                    </div>
-                </div>
-            </div>
-        </div>
+        
+        
     </div>
 </div>
 <!-- Carousel End -->
