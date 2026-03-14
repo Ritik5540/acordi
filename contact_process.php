@@ -16,7 +16,7 @@ if ($_POST) {
     $conn->query($stmt);
 
     // Mail sending logic can be added here if needed
-    sendContactMessage('kfs211124@gmail.com', $name, $email, $phone, $subject, $message);
+    sendContactMessage('ngo.manojaccordi@gmail.com', $name, $email, $phone, $subject, $message);
 
     // Redirect back to contact page with success parameter
     header("Location: contact.php?success=true");
