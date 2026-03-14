@@ -6,7 +6,7 @@
                     <h4 class="text-light mb-4">Office</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>H1-279, Near Kartik Oraon Chowk, Harmu Bypass Road, Harmu Colony, Ranchi-12,</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91  7369084701</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>acordijha87@gmail.com</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>acordijha87@gmail.com, support@acordi.in</p>
                     <div class="d-flex pt-3">
                         <a class="btn btn-square btn-primary me-2" href="#!"><i class="fab fa-x-twitter"></i></a>
                         <a class="btn btn-square btn-primary me-2" href="#!"><i class="fab fa-facebook-f"></i></a>

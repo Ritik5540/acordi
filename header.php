@@ -58,7 +58,7 @@
                         </div>
                         <div class="ms-2 text-wrap">
                             <h6 class="text-primary mb-0">Mail Us</h6>
-                            <span class="text-white small">ngo.manojaccordi@gmail.com</span>
+                            <span class="text-white small">ngo.manojaccordi@gmail.com , support@acordi.in</span>
                         </div>
                     </div>
                 </div>
