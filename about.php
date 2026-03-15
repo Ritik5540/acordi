@@ -15,7 +15,7 @@
 
  <!-- Page Header Start -->
 <div class="container-fluid position-relative text-white d-flex align-items-center justify-content-center"
-     style="background: url('image/banner/banner2.jpg') center center / cover no-repeat; height:400px;">
+     style="background: url('image/banner/banner1.jpg') center center / cover no-repeat; height:400px;">
 
     <!-- Overlay -->
     <div class="position-absolute top-0 start-0 w-100 h-100  opacity-50"></div>
