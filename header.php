@@ -102,7 +102,7 @@
                             <div class="dropdown-menu bg-light m-0">
                                 <a href="governing_body.php" class="dropdown-item">List of Governing -BODY</a>
                                 <a href="pastmembers.php" class="dropdown-item">Past Executive Board Member</a>
-                                <a href="presentmembers.php" class="dropdown-item">Present Executive Board Membe</a>
+                                <a href="presentmembers.php" class="dropdown-item">Present Executive Board Member</a>
                             </div>
                         </div>
                          <div class="nav-item dropdown">

@@ -83,7 +83,7 @@
 
 /*** Nav Bar ***/
 .nav-bar {
-    padding: 0 90px;
+    padding: 0 62px !important;
     transition: .5s;
 }
 
