@@ -39,38 +39,38 @@
                 <h4 class="text-success fw-bold mb-3">Message from the General Secretary</h4>
 
                 <p align="justify">
-                    I, <strong>Mr. Manoj Kumar Jha</strong>, Secretary General of
-                    <strong>Nav-Jeevan Foundation</strong>, an organization
-                    <strong>M/S Agricultural Workers and Rural Development Institute</strong>,
-                    also known as <strong>Nav-Jeewan Harmu, Ranchi, Jharkhand</strong>, hereby mention
-                    that the organization has been successfully running since the financial year
-                    <strong>1987–88</strong>.
-                </p>
+    I, <strong>Mr. Manoj Kumar Jha</strong>, General Secretary of the 
+    <strong>Non-Government Organization</strong> 
+    <strong>Agricultural Consultancy and Rural Development Institute</strong>, 
+    located at <strong>Harmu, Ranchi, Jharkhand</strong>, hereby state that the 
+    organization has been successfully functioning since the financial year 
+    <strong>1987–88 (Date of Registration: 12-05-1987)</strong>.
+</p>
 
-                <p align="justify">
-                    During the last <strong>38 years</strong>, we have organized numerous
-                    <strong>awareness programs, seminars, street plays, dramas, and meetings</strong>
-                    to promote social development and community welfare.
-                </p>
+<p align="justify">
+    Over the past <strong>39 years</strong>, the organization has conducted numerous 
+    <strong>awareness programs, seminars, street plays, dramas, and meetings</strong> 
+    aimed at promoting social development and community welfare.
+</p>
 
-                <p align="justify">
-                    Our organization has members from different sectors with vast experience in
-                    social service. The members of the governing body are actively involved in
-                    projects related to <strong>education, agriculture, health, skill training,
-                        women and child welfare, and poverty eradication programs</strong>.
-                </p>
+<p align="justify">
+    Our organization consists of members from various sectors who possess extensive 
+    experience in social service. The members of the governing body are actively 
+    involved in projects related to <strong>education, agriculture, healthcare, skill development, 
+    women and child welfare, and poverty eradication programs</strong>.
+</p>
 
-                <p align="justify">
-                    All active members unanimously decided to receive donations for the
-                    upliftment of <strong>BPL and weaker sections</strong> and to improve the
-                    <strong>social and economic conditions</strong> of society.
-                </p>
+<p align="justify">
+    All active members have unanimously decided to accept donations to support the 
+    upliftment of the <strong>Below Poverty Line (BPL) and weaker sections</strong> of society 
+    and to improve their <strong>social and economic conditions</strong>.
+</p>
 
-                <p align="justify">
-                    We conduct <strong>monthly meetings</strong> to discuss important matters
-                    and implement development activities. You can also see our past work on
-                    this website through <strong>news paper cuttings, photographs, and records</strong>.
-                </p>
+<p align="justify">
+    The organization conducts <strong>monthly meetings</strong> to discuss important matters 
+    and to implement various development activities. Visitors can also view our past work 
+    on this website through <strong>newspaper cuttings, photographs, and documented records</strong>.
+</p>
 
                 <p class="fw-bold mt-4">
                     With warm regards,<br>
@@ -79,8 +79,21 @@
                 </p>
 
             </div>
+          
 
         </div>
+          <br><br>
+        <p>नमस्कार दोस्तों…</p>
+            <p align="justify">
+                भारत एक कृषि प्रधान देश है, लेकिन आज भी हमारे गाँवों में बहुत से किसान और गरीब परिवार सही जानकारी और संसाधनों के अभाव में संघर्ष कर रहे हैं।
+कई किसान आधुनिक खेती की तकनीक से वंचित हैं, और कई ग्रामीण परिवार शिक्षा और रोजगार के अवसरों से दूर हैं।
+इसी समस्या को बदलने के लिए Agricultural Consultancy & Rural Development Institute – ACORDI लगातार काम कर रहा है।
+हम किसानों को आधुनिक कृषि की जानकारी देते हैं, ग्रामीण युवाओं को प्रशिक्षण प्रदान करते हैं और समाज के कमजोर वर्गों तक सहायता पहुँचाने का प्रयास करते हैं।
+लेकिन यह मिशन आप सभी के सहयोग के बिना संभव नहीं है।
+आपका छोटा-सा दान भी किसी किसान की जिंदगी बदल सकता है, किसी बच्चे को शिक्षा दिला सकता है और किसी गाँव को आत्मनिर्भर बना सकता है।
+आइए… ACORDI के साथ जुड़ें और ग्रामीण भारत के विकास में अपना योगदान दें।
+धन्यवाद।
+            </p>
     </div>
 </section>
 <?php include "footer.php"; ?>
