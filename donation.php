@@ -50,7 +50,7 @@
                                     src="admin/uploads/donation-categories/<?= htmlspecialchars($row['image']) ?>"
                                     alt="<?= htmlspecialchars($row['title']) ?>">
 
-                                <a href="donation-details.php?slug=<?= urlencode($row['slug']) ?>"
+                                <a href="donate.php?campaign=<?= urlencode($row['slug']) ?>"
                                     class="h4 d-inline-block">
 
                                     <?= htmlspecialchars($row['title']) ?>
