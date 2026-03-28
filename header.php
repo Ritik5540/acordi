@@ -124,7 +124,6 @@
                             <div class="dropdown-menu bg-light m-0">
                                 <a href="gallery.php" class="dropdown-item">Program Gallery</a>
                                 <a href="gallery-news.php" class="dropdown-item">News Gallery</a>
-                                <a href="Videos.php" class="dropdown-item">Videos Gallery</a>
                             </div>
                         </div>
                          <a href="donation.php" class="nav-item nav-link">Donation</a>
