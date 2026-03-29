@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-
-
-
 <style>
 /* Yellow background bar */
 .marquee-wrapper {
@@ -54,41 +47,38 @@
     100% { transform: translateX(-50%); }
 }
 </style>
-</head>
-
-<body>
 
 <div class="marquee-wrapper">
 
     <div class="marquee">
 
         <!-- MENU (repeat twice for smooth loop) -->
-        <a href="#" class="menu-btn c1">Agriculture</a>
-        <a href="#" class="menu-btn c2">Health</a>
-        <a href="#" class="menu-btn c3">Education</a>
-        <a href="#" class="menu-btn c4">Micro Credit</a>
-        <a href="#" class="menu-btn c5">Income Generation</a>
-        <a href="#" class="menu-btn c6">Sports</a>
-        <a href="#" class="menu-btn c7">Employment Based Programs</a>
-        <a href="#" class="menu-btn c8">Seminar & Workshop</a>
-        <a href="#" class="menu-btn c1">Publicity</a>
-        <a href="#" class="menu-btn c2">Evolution & Research & Training / Free Legal Aid</a>
-        <a href="#" class="menu-btn c3">Old Age Home & Hostel</a>
-        <a href="#" class="menu-btn c4">Handicraft & Handicapped</a>
-        <a href="#" class="menu-btn c5">Pro. Sanitation</a>
-        <a href="#" class="menu-btn c6">Tourism Promotion</a>
-        <a href="#" class="menu-btn c7">Environment Energy</a>
-        <a href="#" class="menu-btn c8">Women Empowerment & Watershed</a>
+        <a href="javascript:void(0)" class="menu-btn c1">Agriculture</a>
+        <a href="javascript:void(0)" class="menu-btn c2">Health</a>
+        <a href="javascript:void(0)" class="menu-btn c3">Education</a>
+        <a href="javascript:void(0)" class="menu-btn c4">Micro Credit</a>
+        <a href="javascript:void(0)" class="menu-btn c5">Income Generation</a>
+        <a href="javascript:void(0)" class="menu-btn c6">Sports</a>
+        <a href="javascript:void(0)" class="menu-btn c7">Employment Based Programs</a>
+        <a href="javascript:void(0)" class="menu-btn c8">Seminar & Workshop</a>
+        <a href="javascript:void(0)" class="menu-btn c1">Publicity</a>
+        <a href="javascript:void(0)" class="menu-btn c2">Evolution & Research & Training / Free Legal Aid</a>
+        <a href="javascript:void(0)" class="menu-btn c3">Old Age Home & Hostel</a>
+        <a href="javascript:void(0)" class="menu-btn c4">Handicraft & Handicapped</a>
+        <a href="javascript:void(0)" class="menu-btn c5">Pro. Sanitation</a>
+        <a href="javascript:void(0)" class="menu-btn c6">Tourism Promotion</a>
+        <a href="javascript:void(0)" class="menu-btn c7">Environment Energy</a>
+        <a href="javascript:void(0)" class="menu-btn c8">Women Empowerment & Watershed</a>
 
         <!-- DUPLICATE (for infinite scroll) -->
-        <a href="#" class="menu-btn c1">Agriculture</a>
-        <a href="#" class="menu-btn c2">Health</a>
-        <a href="#" class="menu-btn c3">Education</a>
-        <a href="#" class="menu-btn c4">Micro Credit</a>
-        <a href="#" class="menu-btn c5">Income Generation</a>
-        <a href="#" class="menu-btn c6">Sports</a>
-        <a href="#" class="menu-btn c7">Employment Based Programs</a>
-        <a href="#" class="menu-btn c8">Seminar & Workshop</a>
+        <a href="javascript:void(0)" class="menu-btn c1">Agriculture</a>
+        <a href="javascript:void(0)" class="menu-btn c2">Health</a>
+        <a href="javascript:void(0)" class="menu-btn c3">Education</a>
+        <a href="javascript:void(0)" class="menu-btn c4">Micro Credit</a>
+        <a href="javascript:void(0)" class="menu-btn c5">Income Generation</a>
+        <a href="javascript:void(0)" class="menu-btn c6">Sports</a>
+        <a href="javascript:void(0)" class="menu-btn c7">Employment Based Programs</a>
+        <a href="javascript:void(0)" class="menu-btn c8">Seminar & Workshop</a>
 
     </div>
 

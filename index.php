@@ -133,7 +133,7 @@
                             </div>
                             <h3>Pure Water</h3>
                             <p class="mb-2">Pure water is clean, colorless, odorless, and free from harmful chemicals, bacteria, and impurities, essential for healthy living and daily use.</p>
-                            <a href="#!">Read More</a>
+                            <!-- <a>Read More</a> -->
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.3s">
@@ -143,7 +143,7 @@
                             </div>
                             <h3>Health Care</h3>
                             <p class="mb-2">Health care provides medical services, prevention, diagnosis, treatment, and support to maintain physical and mental well-being for individuals and communities.</p>
-                            <a href="#!">Read More</a>
+                            <!-- <a>Read More</a> -->
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.5s">
@@ -153,7 +153,7 @@
                             </div>
                             <h3>Social Care</h3>
                             <p class="mb-2">Social care provides support, protection, and assistance to vulnerable individuals, promoting dignity, inclusion, independence, and overall well-being within communities.</p>
-                            <a href="#!">Read More</a>
+                            <!-- <a>Read More</a> -->
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.1s">
@@ -163,7 +163,7 @@
                             </div>
                             <h3>Healthy Food</h3>
                             <p class="mb-2">Healthy food provides essential nutrients, vitamins, and minerals that support body growth, boost immunity, improve energy levels, and maintain overall health.</p>
-                            <a href="#!">Read More</a>
+                            <!-- <a>Read More</a> -->
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.3s">
@@ -173,7 +173,7 @@
                             </div>
                             <h3>Primary Education</h3>
                             <p class="mb-2">Primary education builds basic skills in reading, writing, and mathematics, helping children develop knowledge, confidence, discipline, and a strong foundation for future learning.</p>
-                            <a href="#!">Read More</a>
+                            <!-- <a>Read More</a> -->
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.5s">
@@ -183,7 +183,7 @@
                             </div>
                             <h3>Residence Facilities</h3>
                             <p class="mb-2">Residence facilities provide safe, comfortable living spaces with basic amenities, ensuring security, hygiene, rest, and a supportive environment for students or residents.</p>
-                            <a href="#!">Read More</a>
+                            <!-- <a>Read More</a> -->
                         </div>
                     </div>
                 </div>
@@ -204,28 +204,28 @@
                         <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
                             <div class="text-center bg-primary py-5 px-4 h-100">
                                 <i class="fa fa-users fa-3x text-secondary mb-3"></i>
-                                <h1 class="display-5 mb-0" data-toggle="counter-up">70</h1>
+                                <h2 class="display-5 mb-0" data-toggle="counter-up">70</h2>
                                 <span class="text-dark">Team Members</span>
                             </div>
                         </div>
                         <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
                             <div class="text-center bg-secondary py-5 px-4 h-100">
                                 <i class="fa fa-award fa-3x text-primary mb-3"></i>
-                                <h1 class="display-5 text-white mb-0" data-toggle="counter-up">20</h1>
+                                <h3 class="display-5 text-white mb-0" data-toggle="counter-up">20</h3>
                                 <span class="text-white">Award Winning</span>
                             </div>
                         </div>
                         <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
                             <div class="text-center bg-secondary py-5 px-4 h-100">
                                 <i class="fa fa-list-check fa-3x text-primary mb-3"></i>
-                                <h1 class="display-5 text-white mb-0" data-toggle="counter-up">150</h1>
+                                <h4 class="display-5 text-white mb-0" data-toggle="counter-up">150</h4>
                                 <span class="text-white">Total Projects</span>
                             </div>
                         </div>
                         <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
                             <div class="text-center bg-primary py-5 px-4 h-100">
                                 <i class="fa fa-comments fa-3x text-secondary mb-3"></i>
-                                <h1 class="display-5 mb-0" data-toggle="counter-up">700</h1>
+                                <h5 class="display-5 mb-0" data-toggle="counter-up">700</h5>
                                 <span class="text-dark">Client's Review</span>
                             </div>
                         </div>
@@ -234,7 +234,7 @@
             </div>
             <div class="col-lg-6">
                 <p class="section-title bg-white text-start text-primary pe-3">Why Us!</p>
-                <h1 class="display-6 mb-4 wow fadeIn" data-wow-delay="0.2s">Few Reasons Why People Choosing Us!</h1>
+                <h6 class="display-6 mb-4 wow fadeIn" data-wow-delay="0.2s">Few Reasons Why People Choosing Us!</h6>
 
                 <p class="text-dark wow fadeIn" data-wow-delay="0.4s"><i
                         class="fa fa-check text-primary me-2"></i><strong>Trusted Organization</strong> – We are committed to honesty, transparency, and ethical work in every project.</p>
@@ -273,7 +273,7 @@ $result = $conn->query($sql);
 
         <div class="text-center mx-auto wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
             <p class="section-title bg-white text-center text-primary px-3">Donation</p>
-            <h1 class="display-6 mb-4">Our Donation Causes Around the World</h1>
+            <h6 class="display-6 mb-4">Our Donation Causes Around the World</h6>
         </div>
 
         <div class="row g-4">

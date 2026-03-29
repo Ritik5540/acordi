@@ -34,7 +34,7 @@ if (!$campaign) {
             <div class="col-lg-7 donate-text bg-light py-5">
                 <div class="p-5">
 
-                    <h1 class="display-6 mb-4"><?= htmlspecialchars($campaign['title']) ?></h1>
+                    <h2 class="display-6 mb-4"><?= htmlspecialchars($campaign['title']) ?></h2>
 
                     <p><?= htmlspecialchars($campaign['description']) ?></p>
 

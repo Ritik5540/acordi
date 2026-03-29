@@ -34,8 +34,8 @@
       </div>
       <div class="col-lg-7 wow fadeIn" data-wow-delay="0.3s">
 
-        <h1 class="display-6 mb-4 wow fadeIn" data-wow-delay="0.2s">If You Have Any Query, Please Contact Us
-        </h1>
+        <h2 class="display-6 mb-4 wow fadeIn" data-wow-delay="0.2s">If You Have Any Query, Please Contact Us
+        </h2>
         <?php
         if (isset($_GET['success']) && $_GET['success'] == 'true') {
           echo '<div class="alert alert-success" role="alert">Your message has been sent successfully!</div>';

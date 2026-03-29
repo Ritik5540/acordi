@@ -22,7 +22,7 @@
     <div class="container">
         <div class="text-center mx-auto wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
             <p class="section-title bg-white text-center text-primary px-3">Donation</p>
-            <h1 class="display-6 mb-4">Our Donation Causes Around the World</h1>
+            <h2 class="display-6 mb-4">Our Donation Causes Around the World</h2>
         </div>
         <?php
 
