@@ -43,7 +43,7 @@
 
             <!-- Logo -->
             <div class="col-12 col-lg-4 text-center text-lg-start">
-                <a href="index.php" class="navbar-brand d-inline-flex align-items-center ms-2 mt-1">
+                <a href="/" class="navbar-brand d-inline-flex align-items-center ms-2 mt-1">
                     <img src="image/logo.jpg" alt="Charitize Logo" class="img-fluid" style="max-height:100px; width:150px;">
                 </a>
 
@@ -97,7 +97,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav me-auto">
-                        <a href="index.php" class="nav-item nav-link active">Home</a>
+                        <a href="/" class="nav-item nav-link active">Home</a>
                         <a href="about.php" class="nav-item nav-link">About</a>
                         <div class="nav-item dropdown">
                             <a href="javascript:void(0)" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Executive Members</a>
