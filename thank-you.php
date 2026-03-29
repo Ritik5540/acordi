@@ -13,7 +13,7 @@
 
     <p>Your donation helps support important causes and improve lives.</p>
 
-    <a href="index.php" class="btn btn-primary mt-3">Back to Home</a>
+    <a href="/" class="btn btn-primary mt-3">Back to Home</a>
 
 </div>
 
