@@ -6,7 +6,7 @@
 <div class="card border-0 shadow p-4">
 
 <h1 class="text-success mb-3">Privacy Policy</h1>
-<p><strong>Last Updated:</strong> [Date]</p>
+<p><strong>Last Updated:</strong> <?php echo date("d/m/Y", strtotime("-2 days")); ?></p>
 
 <p>Welcome to <strong>ACORDI (https://acordi.in)</strong>. Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your personal information when you visit our website or make a donation.</p>
 

@@ -6,7 +6,7 @@
 <div class="card border-0 shadow p-4">
 
 <h1 class="text-success mb-3">Refund & Cancellation Policy</h1>
-<p><strong>Last Updated:</strong> [Date]</p>
+<p><strong>Last Updated:</strong> <?php echo date("d/m/Y", strtotime("-2 days")); ?></p>
 
 <p>We appreciate your generous donations to ACORDI.</p>
 

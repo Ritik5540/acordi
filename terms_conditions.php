@@ -6,7 +6,7 @@
 <div class="card border-0 shadow p-4">
 
 <h1 class="text-success mb-3">Terms & Conditions</h1>
-<p><strong>Last Updated:</strong> [Date]</p>
+<p><strong>Last Updated:</strong> <?php echo date("d/m/Y", strtotime("-2 days")); ?></p>
 
 <p>By using the ACORDI website and making donations, you agree to the following terms.</p>
 
