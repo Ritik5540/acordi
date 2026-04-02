@@ -5,7 +5,7 @@ use PHPMailer\PHPMailer\Exception;
 
 require  'vendor/autoload.php';
 
-function sendDonationThankYouMail($recipientEmail, $name, $amount, $donation_no, $campaign_title, $website_url)
+function sendDonationThankYouMail($recipientEmail, $name, $amount, $donation_no, $campaign_title, $txnid, $website_url)
 {
 
     $mailAddress = 'support@acordi.in';
@@ -74,7 +74,7 @@ function sendDonationThankYouMail($recipientEmail, $name, $amount, $donation_no,
         <div style='background:#f8f9fa;padding:20px;border-radius:6px'>
 
         <b>Donation Details</b><br><br>
-
+        Payment ID : {$txnid}<br>
         Donation ID : {$donation_no}<br>
         Campaign : {$campaign_title}<br>
         Date : " . date('d M Y') . "

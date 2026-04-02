@@ -1,0 +1,110 @@
+-----------------------------
+Date: 2026-04-02 03:47:24
+Array
+(
+    [mihpayid] => 403993715537120388
+    [mode] => CASH
+    [status] => success
+    [unmappedstatus] => captured
+    [key] => o2qRKy
+    [txnid] => 58ca554a99eccc3f13d0
+    [amount] => 5000.00
+    [discount] => 0.00
+    [net_amount_debit] => 5000
+    [addedon] => 2026-04-02 06:42:25
+    [productinfo] => Donation for Minor Children  Boys 
+    [firstname] => KFS2111
+    [lastname] => 
+    [address1] => 
+    [address2] => 
+    [city] => 
+    [state] => 
+    [country] => 
+    [zipcode] => 
+    [email] => kfs211124@gmail.com
+    [phone] => 9999999999
+    [udf1] => 
+    [udf2] => 
+    [udf3] => 
+    [udf4] => 
+    [udf5] => 
+    [udf6] => 
+    [udf7] => 
+    [udf8] => 
+    [udf9] => 
+    [udf10] => 
+    [hash] => 94a515139fdcfeb779cf7b2533e011f04fd48204ebf7342598d12693c74b657b02a5f0000e110775960134f7bf70eb198a01bfb3fb90e60723425a347c94c3b6
+    [field1] => 
+    [field2] => 
+    [field3] => 
+    [field4] => 
+    [field5] => 
+    [field6] => 
+    [field7] => 
+    [field8] => 
+    [field9] => Transaction Completed Successfully
+    [payment_source] => payu
+    [PG_TYPE] => CASH-PG
+    [bank_ref_num] => ae1d7709-ebbf-4eef-ac65-af21f2837461
+    [bankcode] => ITZC
+    [error] => E000
+    [error_Message] => No Error
+)
+
+-----------------------------
+
+-----------------------------
+Date: 2026-04-02 03:58:47
+Array
+(
+    [mihpayid] => 403993715537120423
+    [mode] => CASH
+    [status] => failure
+    [unmappedstatus] => failed
+    [key] => o2qRKy
+    [txnid] => 5da8b0ab2e55dafa6b83
+    [amount] => 1000.00
+    [discount] => 0.00
+    [net_amount_debit] => 0.00
+    [addedon] => 2026-04-02 07:25:31
+    [productinfo] => Donation for Senior Citizens Health Care
+    [firstname] => KFS2111
+    [lastname] => 
+    [address1] => 
+    [address2] => 
+    [city] => 
+    [state] => 
+    [country] => 
+    [zipcode] => 
+    [email] => kfs211124@gmail.com
+    [phone] => 9999999999
+    [udf1] => 
+    [udf2] => 
+    [udf3] => 
+    [udf4] => 
+    [udf5] => 
+    [udf6] => 
+    [udf7] => 
+    [udf8] => 
+    [udf9] => 
+    [udf10] => 
+    [hash] => d5665c8707f1bd3186495b61c84d423afb2ee53987284f66ddf8906b65e11739e2d65ba3152249bb0cba91072906b5af6667dcf259ae9d00fdc624048a06fd68
+    [field1] => 
+    [field2] => 
+    [field3] => 
+    [field4] => 
+    [field5] => 
+    [field6] => 
+    [field7] => 
+    [field8] => 
+    [field9] => Transaction Failed
+    [payment_source] => payu
+    [PG_TYPE] => CASH-PG
+    [bank_ref_num] => 
+    [bankcode] => ITZC
+    [error] => E500
+    [error_Message] => Bank failed to authenticate the customer
+)
+
+-----------------------------
+
