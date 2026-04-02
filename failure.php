@@ -1,8 +1,13 @@
 <?php
 include "config.php";
 
-// File path
-$file = __DIR__ . '/payment-completed.txt';
+if ($_SERVER['HTTP_HOST'] == 'localhost') {
+    // File path
+    $file = __DIR__ . '/payment-completed.txt';
+} else {
+    // File path
+    $file = __DIR__ . '/payu-payment-completed.txt';
+}
 
 // Data convert
 $data = "-----------------------------\n";
