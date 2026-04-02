@@ -5,8 +5,13 @@ require 'mail-send.php';
 $SALT = PAYU_MERCHANT_SALT;
 $key = PAYU_MERCHANT_KEY;
 
-// File path
-$file = __DIR__ . '/payment-completed.txt';
+if ($_SERVER['HTTP_HOST'] == 'localhost') {
+    // File path
+    $file = __DIR__ . '/payment-completed.txt';
+} else {
+    // File path
+    $file = __DIR__ . '/payu-payment-completed.txt';
+}
 
 // Data ko readable format me convert karo
 $data = "-----------------------------\n";
