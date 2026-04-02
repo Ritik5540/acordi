@@ -253,6 +253,7 @@ usort($dataList, function ($a, $b) {
             <table>
                 <thead>
                     <tr>
+                        <th>PayU Id</th>
                         <th>Date</th>
                         <th>Txn ID</th>
                         <th>Name</th>
@@ -266,6 +267,7 @@ usort($dataList, function ($a, $b) {
 
                     <?php foreach ($dataList as $row): ?>
                         <tr>
+                            <td data-label="PayU Id"><?= $row['mihpayid'] ?? '' ?></td>
                             <td data-label="Date"><?= $row['date'] ?></td>
                             <td data-label="Txn"><?= $row['txnid'] ?? '' ?></td>
                             <td data-label="Name"><?= $row['firstname'] ?? '' ?></td>
