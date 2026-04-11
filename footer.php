@@ -85,10 +85,13 @@
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/counterup.min.js"></script>
 
-
-
 <!-- Template Javascript -->
 <script src="js/main.js"></script>
+<script>
+if (window.location.href.includes('#!')) {
+    window.location.replace('https://acordi.in');
+}
+</script>
 </body>
 
 </html>
