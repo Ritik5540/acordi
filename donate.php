@@ -47,8 +47,7 @@ if (!$campaign) {
             </div>
             <div class="col-lg-5 donate-form bg-primary py-5 text-center">
                 <div class="h-100 p-5">
-
-                    <form method="POST" action="./payu/request.php">
+                    <form method="POST" action="request.php">
 
                         <input type="hidden" name="category_id" value="<?= $campaign['id'] ?>">
                         <input type="hidden" name="campaign_title" value="<?= $campaign['title'] ?>">
@@ -131,7 +130,6 @@ if (!$campaign) {
                         </div>
 
                     </form>
-
                 </div>
             </div>
         </div>

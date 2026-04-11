@@ -1,66 +1,111 @@
 <?php
+session_start();
 require "config.php";
-require 'mail-send.php';
+require "mail-send.php";
 
 $SALT = PAYU_MERCHANT_SALT;
-$key = PAYU_MERCHANT_KEY;
+$MERCHANT_KEY  = PAYU_MERCHANT_KEY;
 
-if ($_SERVER['HTTP_HOST'] == 'localhost') {
-    // File path
-    $file = __DIR__ . '/payment-completed.txt';
-} else {
-    // File path
-    $file = __DIR__ . '/payu-payment-completed.txt';
-}
+// ================= LOG FILE ================= //
+$file = (__DIR__ . (($_SERVER['HTTP_HOST'] == 'localhost')
+    ? '/payment-completed.txt'
+    : '/payu-payment-completed.txt'));
 
-// Data ko readable format me convert karo
 $data = "-----------------------------\n";
 $data .= "Date: " . date("Y-m-d H:i:s") . "\n";
-$data .= print_r($_POST, true); // array to string
+$data .= print_r($_POST, true);
 $data .= "\n-----------------------------\n\n";
 
-// Append mode me save karo
 file_put_contents($file, $data, FILE_APPEND | LOCK_EX);
+// echo '<pre>';
+// print_r($_POST);
+// echo '</pre>';
+// die();
 
-// ================= VERIFY ================= //
-$status = $_POST["status"];
-$txnid = $_POST["txnid"];
-$amount = $_POST["amount"];
-$email = $_POST["email"];
-$phone = $_POST["phone"];
-$firstname = $_POST["firstname"];
-$productinfo = $_POST["productinfo"];
+// ================= VALIDATE POST ================= //
+if (empty($_POST)) {
+    die("Invalid Request");
+}
+
+// ================= FETCH DATA ================= //
+$status        = $_POST["status"] ?? '';
+$txnid         = $_POST["txnid"] ?? '';
+$amount = $_POST["amount"]; // EXACT same use karo
+$phone         = trim($_POST["phone"] ?? '');
+$email       = trim($_POST["email"]);
+$firstname   = trim($_POST["firstname"]);
+$productinfo = trim($_POST["productinfo"]);
+$payment_id    = $_POST['mihpayid'] ?? '';
+$udf1   = $_POST['udf1'] ?? '';
+$udf2 = $_POST['udf2'] ?? '';
 $posted_hash = $_POST["hash"];
-$campaign_title = $productinfo; // for mail purpose
-$website_url = 'https://acordi.in'; // hardcoded for security
+$campaign_title = $productinfo;
+$website_url   = 'https://acordi.in';
+$udf1 = $_POST['udf1'] ?? '';
+$udf2 = $_POST['udf2'] ?? '';
+$udf3 = $_POST['udf3'] ?? '';
+$udf4 = $_POST['udf4'] ?? '';
+$udf5 = $_POST['udf5'] ?? '';
 
+// ================= HASH VERIFY ================= //
 // HASH VERIFY
-$hashSeq = $SALT . "|" . $status . "|||||||||||" . $email . "|" . $firstname . "|" . $productinfo . "|" . $amount . "|" . $txnid . "|" . $key;
-$hash = strtolower(hash("sha512", $hashSeq));
+$hashSeq = $SALT . '|' . $status . '|||||||||' .
+    $udf2 . '|' . $udf1 . '|' .
+    $email . '|' . $firstname . '|' . $productinfo . '|' .
+    $amount . '|' . $txnid . '|' . $MERCHANT_KEY;
 
-if ($hash != $posted_hash) {
-    die("Invalid Transaction");
+$calculated_hash = hash("sha512", $hashSeq);
+
+if ($calculated_hash !== $posted_hash) {
+    die("Invalid Transaction (Hash Mismatch)");
+}
+
+// ================= PAYMENT STATUS ================= //
+if ($status !== 'success') {
+    header("Location: failure.php");
+    exit;
 }
 
 // ================= UPDATE DB ================= //
 $stmt = $conn->prepare("
-UPDATE donations 
-SET payment_status='success' 
-WHERE txn_id=?
+    UPDATE donations 
+    SET payment_status = 'success', 
+        transaction_id = ?, 
+        payment_date = NOW(),
+        payu_payment_id = ?,
+        order_id = ?
+    WHERE txn_id = ? AND payment_status = 'pending'
 ");
 
-$stmt->bind_param("s", $txnid);
+$stmt->bind_param("ssss", $payment_id, $payment_id, $udf2, $txnid);
 $stmt->execute();
 
-$sql = "SELECT * FROM donations WHERE txn_id='$txnid' and payment_status='success' LIMIT 1";
-$result = $conn->query($sql);
-if ($result->num_rows > 0) {
-    $donation = $result->fetch_assoc();
-    $donation_no = $donation['donation_no'];
-} else {
+
+// ini_set('display_errors', 1);
+// ini_set('display_startup_errors', 1);
+// error_reporting(E_ALL);
+
+if ($stmt->affected_rows <= 0) {
     header("Location: failure.php");
     exit;
 }
+
+unset($_SESSION['donation_data']);
+
+// ================= FETCH UPDATED DATA ================= //
+$stmt = $conn->prepare("SELECT * FROM donations WHERE txn_id = ? LIMIT 1");
+$stmt->bind_param("s", $txnid);
+$stmt->execute();
+
+$result = $stmt->get_result();
+$donation = $result->fetch_assoc();
+
+if (!$donation) {
+    header("Location: failure.php");
+    exit;
+}
+
+$donation_no = $donation['donation_no'];
 
 // ================= SEND MAIL ================= //
 sendDonationThankYouMail(
@@ -69,10 +114,9 @@ sendDonationThankYouMail(
     $amount,
     $donation_no,
     $campaign_title,
-    $txnid,
+    $payment_id,
     $website_url
 );
-
 ?>
 <?php include "header.php"; ?>
 <div class="container py-5 text-center">
@@ -90,6 +134,10 @@ sendDonationThankYouMail(
 </div>
 <div class="container">
     <table class="table table-bordered">
+        <tr>
+            <th>Order ID</th>
+            <td><?php echo $udf2; ?></td>
+        </tr>
         <tr>
             <th>Transaction ID</th>
             <td><?php echo $txnid; ?></td>

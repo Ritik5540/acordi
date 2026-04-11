@@ -37,7 +37,7 @@ $phone = $_POST["phone"];
 $firstname = $_POST["firstname"];
 $productinfo = $_POST["productinfo"];
 
-$sql = "SELECT * FROM donations WHERE txn_id='$txnid' and payment_status='success' LIMIT 1";
+$sql = "SELECT * FROM donations WHERE txn_id='$txnid' and payment_status='failed' LIMIT 1";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     $donation = $result->fetch_assoc();

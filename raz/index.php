@@ -10,7 +10,7 @@ document.getElementById('pay-btn').onclick = function () {
     .then(data => {
 
         var options = {
-            "key": "rzp_test_xxxxx",
+            "key": "rzp_test_SYhOqsVk99ss1T",
             "amount": "50000",
             "currency": "INR",
             "name": "Test Company",
